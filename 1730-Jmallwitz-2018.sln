@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jmallwitz1e1", "WindowsForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMallwitz1e2", "JMallwitz1e2\JMallwitz1e2.csproj", "{DF1E2A40-5A6E-46EB-A397-401A5FCBB1D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jacobmallwitz1F1", "Jacobmallwitz1f1\Jacobmallwitz1F1.csproj", "{7893EE44-A8F8-4043-B684-A414D500405F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DF1E2A40-5A6E-46EB-A397-401A5FCBB1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF1E2A40-5A6E-46EB-A397-401A5FCBB1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF1E2A40-5A6E-46EB-A397-401A5FCBB1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7893EE44-A8F8-4043-B684-A414D500405F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7893EE44-A8F8-4043-B684-A414D500405F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7893EE44-A8F8-4043-B684-A414D500405F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7893EE44-A8F8-4043-B684-A414D500405F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
