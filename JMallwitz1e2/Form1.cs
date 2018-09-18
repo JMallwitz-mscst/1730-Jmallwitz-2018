@@ -35,5 +35,10 @@ namespace JMallwitz1e2
         {
             this.Close();
         }
+
+        private void txtTest1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

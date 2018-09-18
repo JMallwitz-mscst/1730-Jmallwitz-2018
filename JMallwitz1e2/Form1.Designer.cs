@@ -84,6 +84,7 @@
             this.txtTest1.Size = new System.Drawing.Size(62, 20);
             this.txtTest1.TabIndex = 4;
             this.txtTest1.TabStop = false;
+            this.txtTest1.TextChanged += new System.EventHandler(this.txtTest1_TextChanged);
             // 
             // txtTest2
             // 
