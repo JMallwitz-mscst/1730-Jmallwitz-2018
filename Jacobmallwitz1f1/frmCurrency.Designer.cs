@@ -215,7 +215,6 @@
             this.lblEquation.Name = "lblEquation";
             this.lblEquation.Size = new System.Drawing.Size(0, 13);
             this.lblEquation.TabIndex = 13;
-            this.lblEquation.Click += new System.EventHandler(this.txtCurrency_Enter);
             // 
             // label2
             // 

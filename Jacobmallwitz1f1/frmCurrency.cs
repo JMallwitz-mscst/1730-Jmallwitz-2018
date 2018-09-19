@@ -43,6 +43,12 @@ namespace Jacobmallwitz1f1
             btnAustralia.BackgroundImage = picAustraliaDim.Image;
             btnJapan.BackgroundImage = picJapanDim.Image;
             btnKorea.BackgroundImage = picKoreaDim.Image;
+            lblCurrency.Text = btnBrazil.Text + ": ";
+            txtCurrency.Text = "0.00";
+            txtRate.Text = "0.24";
+            txtUSD.Text = "0.00";
+            txtTotal.Text = "0.00";
+            txtCurrency.Focus();
         }
 
         private void btnAustralia_Click(object sender, EventArgs e)
@@ -89,19 +95,18 @@ namespace Jacobmallwitz1f1
 
         private void calcUSD(object sender, EventArgs e)
         {
-          
+            
         }
 
         private void txtCurrency_Enter(object sender, EventArgs e)
         {
-        
             txtCurrency.SelectAll();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txtUSD.Text = (Convert.ToDecimal(txtCurrency.Text) *
-              Convert.ToDecimal(txtRate.Text)).ToString("0.00");
+                               Convert.ToDecimal(txtRate.Text)).ToString("0.00");
             txtTotal.Text = txtUSD.Text;
             lblEquation.Text = lblEquation.Text + " + " + txtTotal.Text;
         }
